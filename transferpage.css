@@ -1,0 +1,185 @@
+/* styles.css */
+/*
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#loginForm,
+#dashboard {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#dashboard {
+  text-align: center;
+}
+
+#balance {
+  font-weight: bold;
+}
+#loginbtn :hover{
+  background-color: rgb(53, 49, 49);
+}
+*/
+.logo {
+  margin: 2.5% 0% 4% 10%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+header {
+  background-color: rgb(122, 3, 96);
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+
+img {
+  width: 10%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.cen {
+  text-align: center;
+}
+
+.user {
+  font-size: 2%;
+  color: #FFF;
+}
+
+#loginForm {
+  flex-flow: row wrap;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 50%;
+  margin: auto;
+  padding: 2% 5%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#dashboard {
+  flex-flow: row wrap;
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 1%;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 0;
+  color: #cc6060;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: rgb(122, 3, 96);
+}
+
+input {
+  width: 100%;
+  padding: 1% 2%;
+  border: 1px solid #ccc;
+  margin: 2.5% 10% 4% 0%;
+}
+
+button {
+  background-color: rgb(122, 3, 96);
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius:5px;
+  margin: 2.5% 10% 4% 0%;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(122, 3, 96);
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#loginForm {
+  background-color: #FFF;
+  padding: 5%;
+  border: 1px solid #ccc;
+}
+
+#dashboard {
+  background-color: #FFF;
+  padding: 5%;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#welcomeMessage {
+  font-size: 1rem;
+  color: rgb(12, 12, 12);
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#balance {
+  font-size: 1em;
+  color: rgb(122, 3, 96);
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+.btn {
+  background-color: rgb(122, 3, 96);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}

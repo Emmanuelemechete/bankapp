@@ -1,0 +1,134 @@
+
+body {
+    background-color: rgb(0, 19, 22);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    margin-top: 0px;   
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: sans-serif;
+}
+
+#myHeader {
+    background-image: linear-gradient(
+      to bottom,
+      /*rgba(248, 149, 207, 0.905),
+      rgba(253, 253, 253, 0.905)*/
+      rgba(41, 0, 25, 0.905),
+      rgba(49, 49, 49, 0.905)
+    ),  url('Paymepurple.png');
+    height: 40em; /* You must set a specified height */
+    max-width: auto;
+    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: screen; /* Resize the background image to cover the entire container */
+}
+
+.cen {
+    margin: auto;
+    width: 70%;
+    border: none;
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin: 2.5% 0% 5% 2%;
+  }
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 250%;
+}
+p {
+  color: white;
+  font-size: 100%;
+}
+h3 {
+  color: white;
+}
+input.button {
+  float: right;
+  background-color: rgb(122, 3, 96);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius:0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 2.5% 10% 4% 0%;
+  cursor: pointer; 
+}
+input.button:hover {
+  background-color: rgb(116, 80, 108);
+}
+  
+ .btn {
+  width: 70%;
+  text-align: left;
+  padding: auto;
+  align-items: center;
+  justify-content: center;background-color: gray; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 1.2rem 1.6rem; /* Some padding */
+  margin: 0.5rem;
+  font-size: 1.6rem; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  font-size: 200%;
+} 
+
+.form-inline {  
+    /*display: flex;*/
+    flex-flow: row wrap;
+    margin: auto;
+    width: 100%;
+    border: none;
+    padding: auto;
+    
+    
+    
+    
+  }
+  .form-inline label {
+    margin: 0.5rem 0rem 1.0rem 0;
+  }
+  
+  .form-inline input {
+    
+    margin: 2.5% 5% 5% 5%;
+    padding: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius:0.5rem;
+    max-width: 100%;
+    
+  }
+  
+  .form-inline button {
+    padding: 10px;
+    margin: 2.5% 5% 5% 0%;
+    background-color: rgb(122, 3, 96);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius:5px;
+    max-width: 100%; 
+  
+  }
+  
+  .form-inline button:hover {
+    background-color: rgb(116, 80, 108);
+  }
+  
+  

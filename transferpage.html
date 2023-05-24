@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayME App</title>
+    <link rel="stylesheet" type="text/css" href="transferpage.css">
+</head>
+<body>
+    <header id="myHeader">
+        <a href="index.html">
+        <img class= "logo" src="/paymewhitelogo.png" alt="HTML5 Icon" style="width:10rem;height:5rem;">
+       </a>
+        <a href="index.html">
+            <input type="button" value="Home" class="button">
+        </a>
+
+    </header>
+    <h1>PayME App</h1>
+    
+    <div id="loginForm">
+      <h2>Please enter your Token/OTP and Password </h2>
+      <input type="text" id="usernameInput" placeholder="Token/OTP" />
+      <input type="password" id="passwordInput" placeholder="Password" />
+      <button onclick="login()">Submit</button>
+    </div>
+
+    <div id="dashboard" style="display: none;">
+      <h2>Make Trancations</h2>
+      <p id="welcomeMessage"></p>
+      <p>Balance: $<span id="balance">0</span></p>
+      <h3>Deposit</h3>
+      <input type="number" id="depositInput" placeholder="Amount" />
+      <button onclick="deposit()">Deposit</button>
+      <br />
+      <h3>Transfer</h3>
+      <input type="text" id="recipientInput" placeholder="Recipient" />
+      <input type="number" id="transferInput" placeholder="Amount" />
+      <button onclick="transfer()">Transfer</button>
+      <br />
+      <h3>Withdrawal</h3>
+      <input type="number" id="withdrawInput" placeholder="Amount" />
+      <button onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <script src="bankapp.js"></script>
+   
+</body>
+    
+</html>

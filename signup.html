@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bank Account Sign-up</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+  </head>
+  <body>
+    <header id="myHeader">
+        <a href="index.html">
+        <img class= "logo" src="/paymepurplelogo.png" alt="HTML5 Icon" style="width:20rem;height:10rem;">
+       </a>
+        <a href="index.html">
+            <input type="button" value="Home" class="button">
+          </a>
+
+    </header>
+    <div class="container">
+      <form action="#" method="post">
+        <h1>Bank Account Sign-up</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required>
+        <label for="accounttype">Account Type:</label>
+        <select id="accounttype" name="accounttype" required>
+          <option value="">Please select an account type</option>
+          <option value="checking">Checking Account</option>
+          <option value="savings">Savings Account</option>
+        </select>
+        <label for="initialdeposit">Initial Deposit:</label>
+        <input type="number" id="initialdeposit" name="initialdeposit" min="0" required>
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
